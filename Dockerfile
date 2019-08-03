@@ -6,6 +6,7 @@ WORKDIR /opt
 
 RUN useradd java
 RUN mkdir -p /opt/docker/files
+RUN mkdir -p /opt/docker/file2
 
 USER java
 
