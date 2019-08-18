@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# sample line
+#add line 1
 # Bring the services up
 function startServices {
   docker start nodemaster node2 node3 node4
